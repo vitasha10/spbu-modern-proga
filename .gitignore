@@ -1,0 +1,45 @@
+# Шаблоны игнорирования в git
+# https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore#git-ignore-patterns
+
+build_*/
+lib/
+
+# JetBrains IDE
+.idea
+
+# From https://github.com/BuskoIlya/kmms_prog_2024/blob/master/.gitignore
+*.ii
+*.s
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
