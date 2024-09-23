@@ -113,7 +113,7 @@ int main() {
     std::cout << "List size: " << list.size() << "\n";
 
     int find_val = 3;
-    std::cout << "Finding value " << find_val << ": " 
+    std::cout << "Finding value " << find_val << ": "
               << (list.find(find_val) ? "Found" : "Not found") << "\n";
 
     list.remove(2);
@@ -122,7 +122,7 @@ int main() {
 
     std::cout << "List size after removal: " << list.size() << "\n";
 
-    std::cout << "Finding value 2: " 
+    std::cout << "Finding value 2: "
               << (list.find(2) ? "Found" : "Not found") << "\n";
 
     list.reverse();
